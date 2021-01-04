@@ -4,6 +4,7 @@
 		"es2021": true
 	},
 	"extends": [
+		"plugin:jest/recommended",
 		"plugin:react/recommended",
 		"airbnb"
 	],
@@ -15,7 +16,8 @@
 		"sourceType": "module"
 	},
 	"plugins": [
-		"react"
+		"react",
+		"jest"
 	],
 	"rules": {
 		"no-param-reassign": [
